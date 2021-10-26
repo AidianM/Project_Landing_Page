@@ -1,0 +1,110 @@
+/* THIS IS THE TEST CSS */
+
+
+body {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: flex-end;
+    
+    padding: 50px;
+    gap: 100px;
+}
+#one-b {
+    align-self: flex-start;
+}
+.two {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: mediumslateblue;
+    justify-content: center;
+}
+
+#two-a, #two-b {
+    flex: 1;
+    border-style: dashed;
+    border: 100%;
+    border-radius: 2px;
+    border-color: brown;
+    padding: 50px 30px;
+    min-width: 30%;
+}
+
+#two-c {
+    flex: 1;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 20px;
+    border-color: green;
+    min-width: 50%;
+    text-align: center;
+}
+
+
+
+.three {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: mediumorchid;
+    justify-content: space-around;
+
+}
+
+#three-a {
+    flex: 1;
+    display: block;
+    display: flex;
+    border-style: dashed;
+    border: 100%;
+    border-radius: 2px;
+    border-color: maroon;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    border-radius: 2px;
+    border-color: maroon;
+    padding: 20px 30px;
+    gap: 5px;
+
+}
+
+#three-img, #three-ima {
+    display: block;
+    display: flex;
+    flex: 1 1 auto;
+    background-color: lightseagreen;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: maroon;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
